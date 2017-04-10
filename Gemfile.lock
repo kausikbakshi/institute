@@ -1,3 +1,11 @@
+GIT
+  remote: git://github.com/tchandy/octopus.git
+  revision: 810a7efd4fe6f6227330a0779673b37744dc25bf
+  specs:
+    ar-octopus (0.9.0)
+      activerecord (>= 4.0.0)
+      activesupport (>= 4.0.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -73,9 +81,9 @@ GEM
     mini_portile2 (2.1.0)
     minitest (5.10.1)
     multi_json (1.12.1)
-    mysql2 (0.3.21)
     nokogiri (1.7.0.1)
       mini_portile2 (~> 2.1.0)
+    pg (0.20.0)
     rack (1.6.5)
     rack-test (0.6.3)
       rack (>= 1.0)
@@ -145,11 +153,12 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  ar-octopus!
   byebug
   coffee-rails (~> 4.1.0)
   jbuilder (~> 2.0)
   jquery-rails
-  mysql2 (~> 0.3.18)
+  pg
   rails (= 4.2.0)
   rb-readline
   sass-rails (~> 5.0)
