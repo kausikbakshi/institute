@@ -4,7 +4,8 @@ source 'https://rubygems.org'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.0'
 # Use mysql as the database for Active Record
-gem 'mysql2', '~> 0.3.18'
+gem 'pg'
+gem 'ar-octopus', :git => 'git://github.com/tchandy/octopus.git', :require => "octopus"
 #gem 'mysql2'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
